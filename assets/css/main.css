@@ -162,6 +162,28 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.regnoshort{
+  display: none;
+}
+
+
+@media (max-width: 450px) {
+  .sitename {
+    font-weight: 900;
+  }
+
+  .regno{
+    display: none;
+  }
+
+  /* .regnoshort{
+    display: flex;
+    font-size: 8px;
+  } */
+
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -645,6 +667,15 @@ section,
 }
 
 
+.socname-mar{
+  display: flex; 
+  align-items: center; 
+  text-align: center;
+  justify-content: center; 
+  color: #7a50c2; 
+  font-weight: 800;
+}
+
 
 .hero h2 .accent {
   color: var(--accent-color);
@@ -655,6 +686,9 @@ section,
   font-weight: 400;
   margin-bottom: 30px;
 }
+
+
+
 
 /* .hero .btn-get-started {
   color: var(--contrast-color);
