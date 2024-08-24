@@ -167,7 +167,7 @@ h6 {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .sitename {
     font-weight: 900;
   }
@@ -661,7 +661,7 @@ section,
 }
 
 .hero h2 {
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -732,9 +732,15 @@ section,
   color: color-mix(in srgb, var(--accent-color), transparent 15%);
 } */
 
+@media (max-width: 800px) {
+  .hero h2 {
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 640px) {
   .hero h2 {
-    font-size: 36px;
+    font-size: 25px;
   }
 
   .hero .btn-get-started,
