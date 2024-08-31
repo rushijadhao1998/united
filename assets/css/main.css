@@ -660,56 +660,13 @@ section,
 
 
 
-
-/* .hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 36px;
-  border-radius: 50px;
-  transition: 0.5s;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
-}
-
-.hero .btn-get-started:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
-}
-
-.hero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  font-weight: 600;
-}
-
-.hero .btn-watch-video i {
-  color: var(--accent-color);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.hero .btn-watch-video:hover {
-  color: var(--accent-color);
-}
-
-.hero .btn-watch-video:hover i {
-  color: color-mix(in srgb, var(--accent-color), transparent 15%);
-} */
-
 @media (max-width: 800px) {
   .hero h2 {
     font-size: 35px;
   }
   .hero h1 {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 600;
   }
 
 }
@@ -719,13 +676,21 @@ section,
     font-size: 28px;
   }
   .hero h1 {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 30px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
-    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 23px;
   }
 }
 
