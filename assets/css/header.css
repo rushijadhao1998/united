@@ -1,6 +1,7 @@
+
 @font-face {
-  font-family: 'Bauhs93';
-  src: url(BAUHS93.TTF) format('truetype');
+  font-family: 'Bauhaus93';
+  src: url(/assets/fonts/Bauhaus93.ttf) format('truetype');
 }
 
 
@@ -39,7 +40,7 @@
 
 .sitename {
   font-size: 50px;
-  font-family: 'Bauhs93', 'sans-sarif';
+  font-family: 'Bauhaus93', 'sans-sarif';
   color: #7a50c2;
   margin: 0;
 }
