@@ -5,6 +5,11 @@
   --nav-font: "Poppins", sans-serif;
 }
 
+@font-face {
+  font-family: 'bauhs93';
+  src: url(/assets/fonts/BAUHS93.TTF);
+}
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
   --background-color: #ffffff;
@@ -602,19 +607,19 @@ section,
 
 /* --------------------------------- TOP HEADER CSS ------------------------------*/
 
-.top-header{
+.top-header {
   padding: 10px 0 10px 0;
-  background-color: var(--nav-hover-color); 
+  background-color: var(--nav-hover-color);
 }
 
-.top-head h5{
+.top-head h5 {
   font-family: var(--default-font);
   font-size: 16px;
   color: #fff;
   font-weight: 350;
 }
 
-.shortreg{
+.shortreg {
   display: none;
 }
 
@@ -629,11 +634,11 @@ section,
     font-size: 12px;
   }
 
-  .shortreg{
+  .shortreg {
     display: flex;
   }
 
-  .regno{
+  .regno {
     display: none;
   }
 }
