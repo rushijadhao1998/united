@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'bauhs93';
+  src: url(/assets/fonts/BAUHS93.TTF);
+}
+
+
+
 .header {
     color: var(--default-color);
     background-color: var(--background-color);
@@ -11,7 +18,7 @@
   }
   
   .header .logo img {
-    max-height: 70px;
+    max-height: 100px;
     margin-right: 10px;
   }
   
@@ -30,8 +37,23 @@
     box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
   }
   
-  .regnoshort{
-    display: none;
+
+  .sitename{
+    font-size: 50px;
+    font-family: 'bauhs93';
+    color: #7a50c2;
+    margin: 0;
+  }
+
+  .sitename .ltr{
+    font-size: 67px;
+    margin: 0;
+  }
+
+  .co-op{
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
   }
   
   
@@ -40,16 +62,11 @@
       font-weight: 900;
     }
   
-    .regno{
-      display: none;
+    .co-op{
+      font-size: 25px;
+      color: #000;
     }
   
-    /* .regnoshort{
-      display: flex;
-      font-size: 8px;
-    } */
+    
   
   }
-
-  
-  
