@@ -207,7 +207,13 @@
 }
 
 @media (max-width: 500px) {
-  .top-header {
+  .oftime{
     display: none;
   }
+}
+
+
+.footer .credits  a{
+  color: #7a50c2;
+  font-weight: 500;
 }
