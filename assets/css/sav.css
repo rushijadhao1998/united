@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'bauhs93';
-  src: url(/assets/fonts/BAUHS93.TTF);
+  src: url(BAUHS93.TTF);
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
