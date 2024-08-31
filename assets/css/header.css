@@ -44,7 +44,9 @@
   font-style: normal;
 }
 
-
+.sitename-footer {
+  font-family: "Baumans", system-ui;
+}
 
 .sitename {
   font-size: 50px;
@@ -53,6 +55,7 @@
   color: #7a50c2;
   margin: 0;
 }
+
 
 .sitename .ltr {
   font-size: 67px;
@@ -162,4 +165,49 @@
     font-size: 13.5px;
   }
 
+}
+
+
+/* --------------------------------- TOP HEADER CSS ------------------------------*/
+
+.top-header {
+  padding: 10px 0 10px 0;
+  background-color: var(--nav-hover-color);
+}
+
+.top-head h5 {
+  font-family: var(--default-font);
+  font-size: 16px;
+  color: #fff;
+  font-weight: 350;
+}
+
+.shortreg {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .top-head h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 790px) {
+  .top-head h5 {
+    font-size: 12px;
+  }
+
+  .shortreg {
+    display: flex;
+  }
+
+  .regno {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-header {
+    display: none;
+  }
 }

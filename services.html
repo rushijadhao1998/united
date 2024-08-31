@@ -16,6 +16,10 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -25,6 +29,7 @@
     <!-- Main CSS File -->
     <link href="assets/css/services.css" rel="stylesheet">
     <link href="assets/css/header.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
     <!-- Font Awesome Icon Link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -35,16 +40,35 @@
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center sticky-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/logo.png" alt="">
-                <div>
-                    <h1 class="sitename" style="color: #7a50c2;"><span style="color: #7a50c2;">United </span>Rural</h1>
-                    <p class="regno" style="font-size: 15px; color: black;">Reg. No. :- NGP/SNR/RSR/CR/1090/2004</p>
-                </div>
-            </a>
+    <section id="hero1" class="top-header section background">
+
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-2">
+            <div class="col-lg-12 top-head content d-flex justify-content-between align-items-center">
+              <h5 class="regno">Reg. No. :- NGP/SNR/RSR/CR/1090/2004</h5>
+              <h5 class="shortreg">Reg. No. :- 1090/2004</h5>
+              <h5 class="establish">स्थापना : 2004</h5>
+              <h5 class="oftime">Office Hour : 10:30AM TO 05:30PM</h5>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+    
+    
+    
+      <header id="header" class="header d-flex align-items-center sticky-top">
+    
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between ">
+    
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <img src="assets/img/logo.png" alt="">
+            <div>
+              <p class="sitename"> <span class="ltr">U</span>NITED <span class="ltr">R</span>URAL</p>
+              <p class="co-op">CREDIT CO-OP. SOCIETY LTD.</p>
+            </div>
+          </a>
 
             <nav id="navmenu" class="navmenu">
                 <ul>
@@ -200,7 +224,7 @@
 
         <div class="container">
             <div class="copyright text-center ">
-                <p>© <span>Copyright</span><strong class="px-1 sitename">United Rural</strong><span>All Rights
+                <p>© <span>Copyright</span><strong class="px-1 sitename-footer">United Rural</strong><span>All Rights
                         Reserved</span>
                 </p>
             </div>
