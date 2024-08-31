@@ -55,18 +55,64 @@
     color: #000;
     font-weight: 600;
   }
-  
-  
-  @media (max-width: 550px) {
+
+
+  @media (max-width: 790px) {
+
+    .header .logo img {
+      max-height: 90px;
+    }
+
     .sitename {
-      font-weight: 900;
+      font-size: 45px;
+    }
+
+    .sitename .ltr{
+      font-size: 60px;
     }
   
     .co-op{
-      font-size: 25px;
-      color: #000;
+      font-size: 23px;
     }
   
-    
+  }
+  
+  
+  @media (max-width: 560px) {
+    .header .logo img {
+      max-height: 80px;
+    }
+
+    .sitename {
+      font-size: 40px;
+    }
+
+    .sitename .ltr{
+      font-size: 55px;
+    }
+  
+    .co-op{
+      font-size: 20px;
+    }
+  
+  }
+
+
+  @media (max-width: 480px) {
+    .header .logo img {
+      max-height: 70px;
+    }
+
+    .sitename {
+      font-size: 35px;
+    }
+
+    .sitename .ltr{
+      font-size: 50px;
+    }
+  
+    .co-op{
+      font-size: 18px;
+    }
   
   }
