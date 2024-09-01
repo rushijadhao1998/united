@@ -8,7 +8,7 @@
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -172,14 +172,16 @@
 
 .top-header {
   padding: 10px 0 10px 0;
-  background-color: var(--nav-hover-color);
+  /* background-color: #7a50c2; */
+  background-image: linear-gradient(to right, #d3830b, #d30e4c, #2b0baa);
+  /* background-image: linear-gradient(to right, red, blue); */
 }
 
 .top-head h5 {
   font-family: var(--default-font);
   font-size: 16px;
   color: #fff;
-  font-weight: 350;
+  font-weight: 500;
 }
 
 .shortreg {
