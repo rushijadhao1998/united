@@ -628,13 +628,17 @@ section,
 .hero h1 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero h3 {
   font-size: 25px;
   font-weight: 700;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
+
 
 
 .socname-mar {
@@ -669,28 +673,43 @@ section,
     font-weight: 600;
   }
 
+  .hero h3{
+    font-size: 22px;
+  }
+
 }
 
 @media (max-width: 640px) {
   .hero h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .hero h1 {
-    font-size: 30px;
+    font-size: 32px;
+  }
+  .hero h3{
+    font-size: 20px;
   }
 
 }
 
 @media (max-width: 500px) {
   .hero h1 {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 600;
   }
+  .hero h3{
+    font-size: 17px;
+  }
+
 }
 
 @media (max-width: 400px) {
   .hero h1 {
-    font-size: 23px;
+    font-size: 25px;
+  }
+
+  .hero h3{
+    font-size: 15px;
   }
 }
 
