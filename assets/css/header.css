@@ -172,9 +172,9 @@
 
 .top-header {
   padding: 10px 0 10px 0;
-  /* background-color: #7a50c2; */
-  background-image: linear-gradient(to right, #d3830b, #d30e4c, #2b0baa);
-  /* background-image: linear-gradient(to right, red, blue); */
+  background-color: #93296f;
+  /* background-image: linear-gradient(to right, #d3830b, #d30e4c, #2b0baa); */
+  /* background-image: linear-gradient(to right, #93296f, #ef4123); */
 }
 
 .top-head h5 {
