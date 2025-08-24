@@ -44,8 +44,6 @@
 
   <body class="index-page">
 
-
-
     <section id="hero1" class="top-header section background">
 
       <div class="container position-relative">
@@ -55,13 +53,13 @@
             <h5 class="topadd"><i class="bi bi-geo-alt flex-shrink-0"> </i> At
               Post Patansaongi, Tah. Saoner, Dist. Nagpur</h5>
             <!-- <div class="right"> -->
-              <h5 class="oftime">Office Time : 10:30AM TO 05:30PM</h5>
-              <div class="lgbtn">
-                <button class="engbtn">English</button>
-                <button class="mrbtn">मराठी</button>
-                <button class="ebtn">E</button>
-                <button class="mbtn">म</button>
-              </div>
+            <h5 class="oftime">Office Time : 10:30AM TO 05:30PM</h5>
+            <div class="lgbtn">
+              <button class="engbtn">English</button>
+              <button class="mrbtn">मराठी</button>
+              <button class="ebtn">E</button>
+              <button class="mbtn">म</button>
+            </div>
             <!-- </div> -->
           </div>
 
@@ -113,14 +111,106 @@
       </div>
     </header>
 
-
-
-
     <main class="main">
 
-<section id="hero" class="hero section light-background">
+      <div class="slider">
+        <figure>
+          <div class="slide">
+            <h1>ABC Company</h1>
+            <img src="assets/img/plant money.jpg" alt>
+          </div>
+          <div class="slide">
+            <h1>ABC Company</h1>
+            <img src="assets/img/money earth.jpg" alt>
+          </div>
+          <div class="slide">
+            <h1>ABC Company</h1>
+            <img src="assets/img/hero-img2.png" alt>
+          </div>
+          <div class="slide">
+            <h1>ABC Company</h1>
+            <img src="assets/img/hero-img3.jpg" alt>
+          </div>
+        </figure>
+      </div>
 
-  <div class="container position-relative" data-aos="fade-up"
+      <style>
+  .slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+  }
+
+  figure{
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+  }
+
+  .slide{
+    position: relative;
+    width: 25%;
+    float: left;
+  }
+
+  .slide h1{
+    position: absolute;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .slide img{
+    width: 100%;
+    height: 500px;
+  }
+
+  @keyframes slide{
+    0%{
+      left: 0;
+    }
+    10%{
+      left: 0;
+    }
+    20%{
+      left: -100%;
+    }
+    30%{
+      left: -100%;
+    }
+    40%{
+      left: -200%;
+    }
+    50%{
+      left: -200%;
+    }
+    60%{
+      left: -300%;
+    }
+    70%{
+      left: -300;
+    }
+    80%{
+      left: 0;
+    }
+    90%{
+      left: 0;
+    }
+    100%{
+      left: 0;
+    }
+
+  }
+</style>
+
+      <section id="hero" class="hero section light-background">
+
+        <div class="container-fluid position-relative" data-aos="fade-up"
           data-aos-delay="100">
           <div class="row gy-2">
             <div class="col-lg-12 content" data-aos="fade-up"
@@ -128,16 +218,16 @@
               <h2
                 style="display: flex; align-items: center; justify-content: center;">Welcome
                 to</h2>
-              <h1 class="socname-mar">United Rural Credit Co-Op. Society Ltd. Patansaongi</h1>
-            
+              <h1 class="socname-mar">United Rural Credit Co-Op. Society Ltd.
+                Patansaongi</h1>
+
               <h3 class="regno">Reg No. : NGP/SNR/RSR/CR/1090/2004</h3>
             </div>
           </div>
         </div>
-</section>
+      </section>
 
-
-<style>
+      <style>
   .regno{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -148,9 +238,6 @@
     }
   }
 </style>
-
-
-
 
       <div class="contaier-fluid">
 
@@ -163,7 +250,7 @@
       <!-- Hero Section -->
       <section id="hero" class="hero section light-background">
 
-        <!-- <div class="container position-relative" data-aos="fade-up"
+        <div class="container position-relative" data-aos="fade-up"
           data-aos-delay="100">
           <div class="row gy-2">
             <div class="col-lg-12 content" data-aos="fade-up"
@@ -182,7 +269,7 @@
             </div>
 
           </div>
-        </div> -->
+        </div>
 
         <div class="icon-boxes position-relative" data-aos="fade-up"
           data-aos-delay="200">
