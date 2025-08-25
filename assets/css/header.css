@@ -3,6 +3,15 @@
   src: url(/assets/fonts/Bauhaus93.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'ShreeLipi188';
+  src: url(/assets/fonts/ShreeLipi188.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ShreeLipi731';
+  src: url(/assets/fonts/ShreeLipi731.ttf) format('truetype');
+}
 
 
 
@@ -93,6 +102,21 @@
 }
 
 
+.sitename_mar{
+  font-size: 50px;
+  font-family: 'ShreeLipi731';
+  font-weight: 700;
+  color: #7a50c2;
+}
+
+.co-op_mar{
+  font-size: 25px;
+  color: #000;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+
 .sitename .ltr {
   font-size: 67px;
   margin: 0;
@@ -115,12 +139,20 @@
     font-size: 45px;
   }
 
+  .sitename_mar{
+    font-size: 45px;
+  }
+
   .sitename .ltr {
     font-size: 60px;
   }
 
   .co-op {
     font-size: 23px;
+  }
+
+  .co-op_mar{
+    font-size: 22px;
   }
 
 }
@@ -135,12 +167,20 @@
     font-size: 40px;
   }
 
+  .sitename_mar{
+    font-size: 40px;
+  }
+
   .sitename .ltr {
     font-size: 55px;
   }
 
   .co-op {
     font-size: 20px;
+  }
+
+  .co-op_mar{
+    font-size: 19.5px;
   }
 
 }
@@ -155,12 +195,20 @@
     font-size: 35px;
   }
 
+  .sitename_mar{
+    font-size: 35px;
+  }
+
   .sitename .ltr {
     font-size: 50px;
   }
 
   .co-op {
     font-size: 18px;
+  }
+
+  .co-op_mar{
+    font-size: 17px;
   }
 
 }
@@ -174,12 +222,20 @@
     font-size: 30px;
   }
 
+  .sitename_mar{
+    font-size: 30px;
+  }
+
   .sitename .ltr {
     font-size: 45px;
   }
 
   .co-op {
     font-size: 15px;
+  }
+
+  .co-op_mar{
+    font-size: 14.5px;
   }
 
 }
@@ -193,12 +249,20 @@
     font-size: 26px;
   }
 
+  .sitename_mar{
+    font-size: 26px;
+  }
+
   .sitename .ltr {
     font-size: 40px;
   }
 
   .co-op {
     font-size: 13.5px;
+  }
+
+  .co-op_mar{
+    font-size: 12.7px;
   }
 
 }
