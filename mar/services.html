@@ -23,18 +23,19 @@
             rel="stylesheet">
 
         <!-- Vendor CSS Files -->
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css"
+        <link href="/assets/vendor/bootstrap/css/bootstrap.min.css"
             rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+        <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css"
             rel="stylesheet">
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/glightbox/css/glightbox.min.css"
+        <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="/assets/vendor/glightbox/css/glightbox.min.css"
             rel="stylesheet">
 
         <!-- Main CSS File -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link href="assets/css/services.css" rel="stylesheet">
-        <link href="assets/css/header.css" rel="stylesheet">
+        <link href="/assets/css/services.css" rel="stylesheet">
+        <link href="/assets/css/main.css" rel="stylesheet">
+        <link href="/assets/css/header.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/style.css">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
             rel="stylesheet">
 
@@ -43,6 +44,9 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
             integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     </head>
 
@@ -54,14 +58,19 @@
                     <div
                         class="col-lg-12 top-head content d-flex justify-content-between align-items-center">
                         <h5 class="topadd"><i
-                                class="bi bi-geo-alt flex-shrink-0"> </i> At
-                            Post Patansaongi, Tah. Saoner, Dist. Nagpur</h5>
-                        <h5 class="oftime">Office Time : 10:30AM TO 05:30PM</h5>
+                                class="bi bi-geo-alt flex-shrink-0"> </i> मु.
+                            पो. पाटणसावंगी, त. सावनेर, जि. नागपूर</h5>
+                        <h5 class="oftime">कार्यालयीन वेळ : सकाळी 10:30 ते
+                            दुपारी 05:30</h5>
                         <div class="lgbtn">
-                            <button class="engbtn">English</button>
-                            <button class="mrbtn">मराठी</button>
-                            <button class="ebtn">E</button>
-                            <button class="mbtn">म</button>
+                            <button class="engbtn"><a
+                                    href="/index.html">English</a></button>
+                            <button class="mrbtn"><a
+                                    href="index.html">मराठी</a></button>
+                            <button class="ebtn"><a
+                                    href="/index.html">E</a></button>
+                            <button class="mbtn"><a
+                                    href="index.html">म</a></button>
                         </div>
                     </div>
                 </div>
@@ -75,57 +84,68 @@
 
                 <a href="index.html" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
-                    <img src="assets/img/logo.png" alt>
+                    <img src="/assets/img/logo.png" alt>
                     <div>
-                        <p class="sitename"> <span class="ltr">U</span>NITED
-                            <span class="ltr">R</span>URAL</p>
-                        <p class="co-op">CREDIT CO-OP. SOCIETY LTD.</p>
+                        <p class="sitename_mar"> <span
+                                class="ltr"></span>युनाईटेड <span
+                                class="ltr"></span>रुरल</p>
+                        <p class="co-op_mar">क्रेडीट को-ऑप. सोसायटी लि.</p>
                     </div>
                 </a>
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html" class="active">होम</a></li>
 
-                        <li class="dropdown"><a href="services.html"
-                                class="active"><span>Services</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="#">Saving Accounts</a></li>
-                                <li><a href="#">Deposites</a></li>
-                                <li><a href="#">Gold Loan</a></li>
-                                <li><a href="#">Loans</a></li>
-                                <li><a href="#">SMS Banking</a></li>
-                                <li><a href="#">NEFT/RTGS</a></li>
-
-                            </ul>
-                        </li>
-
-                        <li><a href="interest.html">Interest</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-
-                        <li class="dropdown"><a href="#"><span>Downloads</span>
+                        <li class="dropdown"><a
+                                href="services.html"><span>सेवा</span>
                                 <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a
-                                        href="assets/forms/SHARE AC.pdf">Membership
-                                        Form</a></li>
-                                <li><a
-                                        href="assets/forms/fd new form.pdf">Account
-                                        Opening Form</a></li>
-                                <li><a href="assets/forms/GOLD LOAN.pdf">Gold
-                                        Loan Form</a></li>
-                                <li><a href="assets/forms/EM LOAN.pdf">Emergency
-                                        Loan Form</a></li>
-                                <li><a href="assets/forms/Loan Form.pdf">Loan
-                                        Form</a></li>
+                                <li><a href="service-ssd.html">बचत खाते</a></li>
+                                <li><a href="service-fd.html">ठेवी</a></li>
+                                <li><a href="service-gold.html">सोने तारण
+                                        कर्ज</a></li>
+                                <li><a href="service-reg.html">इतर कर्ज</a></li>
+                                <li><a href="service-sms.html">एसएमएस
+                                        बँकिंग</a></li>
+                                <li><a href="service-neft.html">NEFT/RTGS
+                                        सेवा</a></li>
+                                <li><a href="services-emi.html">EMI
+                                        कॅलकुलेटर</a></li>
+
                             </ul>
                         </li>
+
+                        <li><a href="interest.html">व्याजदर</a></li>
+                        <li><a href="about.html">आमच्या बद्दल</a></li>
+                        <li><a href="contact.html">संपर्क</a></li>
+
+                        <li class="dropdown"><a href="#"><span>डाउनलोड</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="/assets/forms/SHARE AC.pdf">सभासद
+                                        फॉर्म</a></li>
+                                <li><a href="/assets/forms/fd new form.pdf">खाते
+                                        उघडण्याचे
+                                        फॉर्म</a></li>
+                                <li><a href="/assets/forms/GOLD LOAN.pdf">सोने
+                                        तारण कर्ज
+                                        फॉर्म</a></li>
+                                <li><a href="/assets/forms/EM LOAN.pdf">आकस्मिक
+                                        कर्ज
+                                        फॉर्म</a></li>
+                                <li><a href="/assets/forms/Loan Form.pdf">इतर
+                                        कर्ज
+                                        फॉर्म</a></li>
+                                <li><a href="#">वाहन कर्ज फॉर्म</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
+
             </div>
         </header>
         <main class="main">
@@ -135,9 +155,8 @@
 
                 <!-- Section Title -->
                 <div class="container section-title" data-aos="fade-up">
-                    <h2>Services</h2>
-                    <div><span>Check Our</span> <span
-                            class="description-title">Services</span></div>
+                    <h2>सेवा</h2>
+                    <div><span>आमच्या</span> <span class="description-title">सेवा</span> <span>तपासा</span></div>
                 </div><!-- End Section Title -->
 
                 <div class="container">
@@ -260,115 +279,9 @@
                                 <p class="click">Click For More</p>
                             </div>
                         </div><!-- End Service Item -->
-
                     </div>
-
                 </div>
-
             </section><!-- /Services Section -->
-
-            <section id="project" class="pricing section">
-
-                <div class="container section-title" data-aos="fade-up">
-                    <h2>Pricing</h2>
-                    <div><span>Check Our</span> <span
-                            class="description-title">Pricing</span></div>
-                </div>
-
-                <div class="container">
-
-                    <div class="row gy-4">
-
-                        <div class="col-lg-3 col-md-6" data-aos="zoom-in"
-                            data-aos-delay="100">
-                            <div class="pricing-tem">
-                                <h3 style="color: #20c997;">Free Plan</h3>
-                                <div class="price"><sup>$</sup>0<span> /
-                                        mo</span></div>
-                                <div class="icon">
-                                    <i class="bi bi-box"
-                                        style="color: #20c997;"></i>
-                                </div>
-                                <ul>
-                                    <li>Aida dere</li>
-                                    <li>Nec feugiat nisl</li>
-                                    <li>Nulla at volutpat dola</li>
-                                    <li class="na">Pharetra massa</li>
-                                    <li class="na">Massa ultricies mi</li>
-                                </ul>
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6" data-aos="zoom-in"
-                            data-aos-delay="200">
-                            <div class="pricing-tem">
-                                <span class="featured">Featured</span>
-                                <h3 style="color: #0dcaf0;">Starter Plan</h3>
-                                <div class="price"><sup>$</sup>19<span> /
-                                        mo</span></div>
-                                <div class="icon">
-                                    <i class="bi bi-send"
-                                        style="color: #0dcaf0;"></i>
-                                </div>
-                                <ul>
-                                    <li>Aida dere</li>
-                                    <li>Nec feugiat nisl</li>
-                                    <li>Nulla at volutpat dola</li>
-                                    <li>Pharetra massa</li>
-                                    <li class="na">Massa ultricies mi</li>
-                                </ul>
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6" data-aos="zoom-in"
-                            data-aos-delay="300">
-                            <div class="pricing-tem">
-                                <h3 style="color: #fd7e14;">Business Plan</h3>
-                                <div class="price"><sup>$</sup>29<span> /
-                                        mo</span></div>
-                                <div class="icon">
-                                    <i class="bi bi-airplane"
-                                        style="color: #fd7e14;"></i>
-                                </div>
-                                <ul>
-                                    <li>Aida dere</li>
-                                    <li>Nec feugiat nisl</li>
-                                    <li>Nulla at volutpat dola</li>
-                                    <li>Pharetra massa</li>
-                                    <li>Massa ultricies mi</li>
-                                </ul>
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6" data-aos="zoom-in"
-                            data-aos-delay="400">
-                            <div class="pricing-tem">
-                                <h3 style="color: #0d6efd;">Ultimate Plan</h3>
-                                <div class="price"><sup>$</sup>49<span> /
-                                        mo</span></div>
-                                <div class="icon">
-                                    <i class="bi bi-rocket"
-                                        style="color: #0d6efd;"></i>
-                                </div>
-                                <ul>
-                                    <li>Aida dere</li>
-                                    <li>Nec feugiat nisl</li>
-                                    <li>Nulla at volutpat dola</li>
-                                    <li>Pharetra massa</li>
-                                    <li>Massa ultricies mi</li>
-                                </ul>
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
 
         </main>
 
@@ -406,13 +319,13 @@
 
         <!-- Vendor JS Files -->
         <script
-            src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+            src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/vendor/php-email-form/validate.js"></script>
+        <script src="/assets/vendor/aos/aos.js"></script>
+        <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
 
         <!-- Main JS File -->
-        <script src="assets/js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 
     </body>
 
