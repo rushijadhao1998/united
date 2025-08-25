@@ -250,7 +250,7 @@
   }
 
   .sitename_mar{
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .sitename .ltr {
@@ -262,7 +262,8 @@
   }
 
   .co-op_mar{
-    font-size: 12.7px;
+    font-size: 13.7px;
+    padding-top: 8px;
   }
 
 }
