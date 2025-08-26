@@ -601,18 +601,14 @@ section,
 }
 
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
-
 
 .hero {
   width: 100%;
   position: relative;
   padding: 30px 0 30px 0;
-
 }
 
 .hero .container {
@@ -640,9 +636,7 @@ section,
   justify-content: center;
 }
 
-
 .socname-mar {
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -763,7 +757,6 @@ section,
 }
 
 
-
 /*--------------------------------------------------------------
 # Account Section
 --------------------------------------------------------------*/
@@ -839,26 +832,6 @@ section,
 }
 
 
-/* .account .btn-sav{
-    display: inline-block;
-    padding: 8px 40px 10px 40px;
-    border-radius: 50px;
-    color:#20c997;
-    transition: none;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: #20c997;
-    font-weight: 600;
-    transition: 0.3s;
-    border: 1px solid #20c997;
-}
-
-.account .btn-sav:hover {
-  background: #20c997;
-  color: var(--contrast-color);
-} */
-
-
 .account .btn-buy {
   display: inline-block;
   padding: 8px 40px 10px 40px;
@@ -890,35 +863,6 @@ section,
   background: var(--accent-color);
   color: var(--contrast-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--------------------------------------------------------------
