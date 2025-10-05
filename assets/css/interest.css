@@ -38,3 +38,28 @@
   align-items: center;
 
 }
+
+th{
+  background-color: #93296f;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  th{
+    font-size: 12px;
+  }
+
+  td{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  th{
+    font-size: 10px;
+  }
+
+  td{
+    font-size: 10px;
+  }
+}
