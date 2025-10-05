@@ -46,20 +46,20 @@ th{
 
 @media (max-width: 500px) {
   th{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   td{
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 400px) {
   th{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   td{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
