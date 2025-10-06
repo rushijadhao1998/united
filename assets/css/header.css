@@ -129,6 +129,37 @@
 }
 
 
+
+
+@media (min-width: 1200px) {
+
+    .header .logo img {
+    max-height: 90px;
+  }
+
+  .sitename {
+    font-size: 45px;
+  }
+
+  .sitename_mar{
+    font-size: 45px;
+  }
+
+  .sitename .ltr {
+    font-size: 60px;
+  }
+
+  .co-op {
+    font-size: 23px;
+  }
+
+  .co-op_mar{
+    font-size: 22px;
+  }
+  
+}
+
+
 @media (max-width: 790px) {
 
   .header .logo img {
