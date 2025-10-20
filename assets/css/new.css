@@ -1,0 +1,29 @@
+.partner-item {
+	padding: 20px 20px;
+	opacity: .4;
+	transition: .4s
+}
+
+.partner-item:hover {
+	opacity: 1
+}
+
+.partner-item img {
+	display: block;
+	margin: 0 auto;
+	max-width: 220px
+}
+
+.partner-slider{
+	display: flex;
+	justify-content: space-between;
+}
+
+@keyframes partner-slider{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(calc(-250px * 6));
+	}
+}
