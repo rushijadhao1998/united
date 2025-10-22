@@ -151,3 +151,44 @@
   background: var(--accent-color);
   color: var(--contrast-color);
 }
+
+.partner-item {
+	padding: 20px 20px;
+	opacity: .4;
+	transition: .4s
+}
+
+.partner-item:hover {
+	opacity: 1
+}
+
+.partner-item img {
+	display: block;
+	margin: 0 auto;
+	max-width: 210px
+}
+
+
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	animation: spin 10s infinite linear;
+	gap: 3em;
+}
+
+.carousel{
+	display: flex;
+	overflow-x: auto;
+	gap: 3em;
+}
+
+.carousel::-webkit-scrollbar{
+	display: none;
+}
+
+
+@keyframes spin{
+	from{ translate: 0;}
+	to { translate: -100%;}
+}

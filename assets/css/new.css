@@ -11,19 +11,30 @@
 .partner-item img {
 	display: block;
 	margin: 0 auto;
-	max-width: 220px
+	max-width: 210px
 }
 
-.partner-slider{
+
+.group{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	animation: spin 10s infinite linear;
+	gap: 3em;
 }
 
-@keyframes partner-slider{
-	0%{
-		transform: translateX(0);
-	}
-	100%{
-		transform: translateX(calc(-250px * 6));
-	}
+.carousel{
+	display: flex;
+	overflow-x: auto;
+	gap: 3em;
+}
+
+.carousel::-webkit-scrollbar{
+	display: none;
+}
+
+
+@keyframes spin{
+	from{ translate: 0;}
+	to { translate: -100%;}
 }
