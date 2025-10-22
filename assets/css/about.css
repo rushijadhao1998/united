@@ -173,14 +173,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	animation: spin 10s infinite linear;
+	animation: spin 8s infinite linear;
 	gap: 3em;
+  padding-right: 3em;
 }
 
 .carousel{
 	display: flex;
 	overflow-x: auto;
-	gap: 3em;
 }
 
 .carousel::-webkit-scrollbar{
