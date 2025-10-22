@@ -164,7 +164,7 @@
 .partner-item img {
 	display: block;
 	margin: 0 auto;
-	width: 220px
+	max-width: 220px
 }
 
 
@@ -172,7 +172,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	animation: spin 8s infinite linear;
+	animation: spin 15s infinite linear;
 	gap: 3em;
 	padding-right: 3em;
 }
@@ -197,8 +197,9 @@
 	}
 }
 
+
 @media (max-width: 700px) {
 	.partner-item img {
-		max-width: 150px;
+		max-width: 150px
 	}
 }
