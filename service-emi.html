@@ -194,8 +194,9 @@
                 </div>
               </div><!-- End Services List -->
 
+              <div class="help-box-up">
               <div
-                class="help-box d-flex flex-column justify-content-center align-items-center">
+                class="help-box">
                 <i class="bi bi-headset help-icon"></i>
                 <h4>Have a Question?</h4>
                 <p class="d-flex align-items-center mt-2 mb-0"><i
@@ -207,8 +208,26 @@
                     href="mailto:contact@example.com">info@unitedrural.in</a>
                 </p>
               </div>
+              </div>
 
             </div>
+
+            <style>
+
+              .help-box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              }
+
+              @media (max-width: 990px) {
+	              .service-box, .help-box-up{
+		            display: none;
+	              }
+
+              }
+            </style>
 
             <div class="col-lg-8 ps-lg-4" data-aos="fade-up"
               data-aos-delay="200">
@@ -264,7 +283,6 @@
 
                 </div>
 
-
                 <style>
                   label{
                     font-size: 20px;
@@ -273,7 +291,7 @@
                   .ln{
                     border: 1px solid gray;
                     padding: 10px;
-                    border-radius: 20px;
+                    border-radius: 10px;
                     box-shadow: 2px 5px 6px gray;
                   }
 
@@ -287,7 +305,7 @@
 
                   input{
                     border: 1px solid black;
-                    border-radius: 20px;
+                    border-radius: 5px;
                     width: 100%;
                     height: 40px;
                     padding-left: 10px;
@@ -305,7 +323,7 @@
                     margin: 30px 0 20px 0;
                     width: 100%;
                     border: 2px solid #7a50c2;
-                    border-radius: 20px;
+                    border-radius: 5px;
                     height: 40px;
                     color: #fff;
                     font-size: 20px;
@@ -348,7 +366,37 @@
 
           </div>
 
+
+          <div class="help-box-down" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="help-box">
+            <i class="bi bi-headset help-icon"></i>
+            <h4>Have a Question?</h4>
+            <p class="d-flex align-items-center mt-2 mb-0"><i
+                class="bi bi-telephone me-2"></i> <span>+91 84467
+                50779</span></p>
+            <p class="d-flex align-items-center mt-1 mb-0"><i
+                class="bi bi-envelope me-2"></i>
+              <a
+                href="mailto:contact@example.com">info@unitedrural.in</a>
+            </p>
+          </div>
+          </div>
+
         </div>
+
+        <style>
+          .help-box-down{
+            display: none;
+          }
+
+          @media (max-width: 990px) {
+	              .help-box-down{
+                  display: block;
+                }
+              }
+
+        </style>
 
       </section>
       <!-- /Service Details Section -->
