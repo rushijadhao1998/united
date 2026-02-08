@@ -53,11 +53,11 @@
 
 @media (max-width: 500px){
   .swiper-slide img{
-    height: 220px;
+    height: 200px;
   }
 
   .swiper{
-    height: 220px;
+    height: 200px;
   }
 }
 
