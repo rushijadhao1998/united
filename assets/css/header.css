@@ -63,8 +63,8 @@
 }
 
 .header .logo img {
-  max-height: 100px;
-  margin-right: 10px;
+  max-height: 110px;
+  margin-right: 20px;
 }
 
 .header .logo h1 {
@@ -94,10 +94,16 @@
 }
 
 .sitename {
-  font-size: 50px;
+  font-size: 54px;
   font-family: "Baumans", system-ui;
   font-weight: 700;
   color: #7a50c2;
+  margin: 0;
+}
+
+
+.sitename .ltr {
+  font-size: 75px;
   margin: 0;
 }
 
@@ -117,13 +123,10 @@
 }
 
 
-.sitename .ltr {
-  font-size: 67px;
-  margin: 0;
-}
+
 
 .co-op {
-  font-size: 25px;
+  font-size: 27px;
   color: #000;
   font-weight: 600;
 }
@@ -131,7 +134,7 @@
 
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1400px) {
 
     .header .logo img {
     max-height: 90px;
@@ -150,7 +153,7 @@
   }
 
   .co-op {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .co-op_mar{
@@ -179,7 +182,7 @@
   }
 
   .co-op {
-    font-size: 23px;
+    font-size: 22.5px;
   }
 
   .co-op_mar{
