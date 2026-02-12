@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footer Design</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+/* ================= TOP HELP BAR ================= */
+
+.help-bar{
+    background:#8bc34a;
+    padding:40px 60px;
+    border-radius:10px;
+    width:90%;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.help-left h2{
+    font-size:36px;
+    font-weight:600;
+}
+
+.help-left p{
+    font-size:18px;
+    margin-top:10px;
+}
+
+.help-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    font-size:28px;
+    font-weight:600;
+}
+
+.help-icon{
+    background:#fff;
+    color:#8bc34a;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background:#000;
+    padding:60px 80px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.2fr;
+    gap:40px;
+}
+
+/* Logo Section */
+.footer-logo img{
+    width:220px;
+    margin-bottom:20px;
+}
+
+.footer-logo p{
+    line-height:1.7;
+    font-size:14px;
+}
+
+.social-icons{
+    margin-top:20px;
+}
+
+.social-icons i{
+    font-size:20px;
+    margin-right:10px;
+    cursor:pointer;
+    background:#222;
+    padding:8px;
+    border-radius:4px;
+}
+
+/* Headings */
+.footer h3{
+    margin-bottom:20px;
+    font-size:20px;
+}
+
+/* Links */
+.footer ul{
+    list-style:none;
+}
+
+.footer ul li{
+    margin-bottom:12px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.footer ul li:hover{
+    color:#8bc34a;
+}
+
+/* Contact Section */
+.contact-item{
+    margin-bottom:15px;
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    font-size:14px;
+}
+
+.contact-item i{
+    color:#8bc34a;
+    margin-top:4px;
+}
+
+/* Responsive */
+@media(max-width:992px){
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .help-bar{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+}
+
+@media(max-width:576px){
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- ================= HELP BAR ================= -->
+
+<div class="help-bar">
+    <div class="help-left">
+        <h2>Need Help?</h2>
+        <p>We are just a Call away to discuss your Solution</p>
+    </div>
+
+    <div class="help-right">
+        <div class="help-icon">
+            <i class="fa fa-phone"></i>
+        </div>
+        +91 777 5005 777
+    </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo Section -->
+        <div class="footer-logo">
+            <img src="logo.png" alt="Logo">
+            <p>
+                GODAVARI URBAN MULTISTATE CREDIT CO-OPERATIVE SOCIETY LTD, NANDED 
+                is an autonomous association of people united voluntarily to meet 
+                their Mutually Social, Economical, Cultural, Professional and Personal Aspirations.
+            </p>
+
+            <div class="social-icons">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+
+        <!-- Deposits -->
+        <div>
+            <h3>Deposits</h3>
+            <ul>
+                <li>Fixed Deposit</li>
+                <li>MIS (Monthly Income Scheme)</li>
+                <li>Double Income Scheme</li>
+                <li>Recurring Deposit</li>
+                <li>Daily Deposit</li>
+            </ul>
+        </div>
+
+        <!-- Loans -->
+        <div>
+            <h3>Loans</h3>
+            <ul>
+                <li>Gold Loan</li>
+                <li>Loan Against LIC, NSC, KVPM</li>
+                <li>Loan Against Fixed Deposit</li>
+                <li>Term Loan (Personal Loan)</li>
+                <li>Mortgage Loan</li>
+                <li>Home Loan</li>
+                <li>Vehicle Loan</li>
+                <li>Cash Credit Loan</li>
+            </ul>
+        </div>
+
+        <!-- Useful Links -->
+        <div>
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Loan EMI Calculator</li>
+                <li>FD Interest Calculator</li>
+                <li>Mobile Banking</li>
+                <li>Gallery</li>
+                <li>Downloads</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Career</li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+            <h3>Contact Us</h3>
+
+            <div class="contact-item">
+                <i class="fa fa-map-marker-alt"></i>
+                “Sahakarsurya”, opp. MSEB office,<br>
+                Taroda Naka, Purna Road, Nanded-431 605
+            </div>
+
+            <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                assistance@godavariurban.com
+            </div>
+
+            <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                +91 777 5005 777
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
