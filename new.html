@@ -1,346 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="shortcut icon" type="x-icon" href="assets/img/logo.png">
-        <title>United Rural - About Us</title>
-        <meta name="description" content>
-        <meta name="keywords" content>
+<title>United Technologies Pvt. Ltd. | Website Design & Development Company</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com" rel="preconnect">
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
+<meta name="description" content="United Technologies Pvt. Ltd. provides professional website design, ecommerce development and digital solutions in India.">
+<meta name="keywords" content="Website Design Company, Web Development, Ecommerce Website, IT Company India">
+<meta name="author" content="United Technologies Pvt. Ltd.">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Baumans&display=swap"
-            rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-        <!-- Vendor CSS Files -->
-        <link href="assets/vendor/bootstrap/css/bootstrap.min.css"
-            rel="stylesheet">
-        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-            rel="stylesheet">
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-        <link href="assets/vendor/glightbox/css/glightbox.min.css"
-            rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
 
-        <!-- Main CSS File -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link href="assets/css/about.css" rel="stylesheet">
-        <link href="assets/css/header.css" rel="stylesheet">
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-            rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/new.css">
+body{
+background:#0f172a;
+color:#fff;
+}
 
-        <!-- Font Awesome Icon Link  -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+/* NAVBAR */
+header{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+background:rgba(15,23,42,0.95);
+z-index:1000;
+}
 
-    </head>
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
 
-    <body class="index-page">
+.logo img{
+height:40px;
+}
 
-        <!-- <section id="hero1" class="top-header section background">
-            <div class="container position-relative">
-                <div class="row gy-2">
-                    <div
-                        class="col-lg-12 top-head content d-flex justify-content-between align-items-center">
-                        <h5 class="topadd"><i
-                                class="bi bi-geo-alt flex-shrink-0"> </i> At
-                            Post Patansaongi, Tah. Saoner, Dist. Nagpur</h5>
-                        <h5 class="oftime">Office Time : 10:30AM TO 05:30PM</h5>
-                        <div class="lgbtn">
-                            <button class="engbtn">English</button>
-                            <button class="mrbtn">मराठी</button>
-                            <button class="ebtn">E</button>
-                            <button class="mbtn">म</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+.logo span{
+font-weight:600;
+font-size:18px;
+}
 
-        <header id="header" class="header d-flex align-items-center sticky-top">
+nav ul{
+display:flex;
+list-style:none;
+}
 
-            <div
-                class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between ">
+nav ul li{
+margin-left:30px;
+}
 
-                <a href="index.html" class="logo d-flex align-items-center">
-                    <!-- Uncomment the line below if you also wish to use an image logo -->
-                    <img src="assets/img/logo.png" alt>
-                    <div>
-                        <p class="sitename"> <span class="ltr">U</span>NITED
-                            <span
-                                class="ltr">R</span>URAL</p>
-                        <p class="co-op">CREDIT CO-OP. SOCIETY LTD.</p>
-                    </div>
-                </a>
+nav ul li a{
+color:#fff;
+text-decoration:none;
+transition:0.3s;
+}
 
-                <nav id="navmenu" class="navmenu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
+nav ul li a:hover{
+color:#38bdf8;
+}
 
-                        <li class="dropdown"><a href="#"><span>Services</span>
-                                <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="service-deposite.html">Deposit
-                                        Scheme</a></li>
-                                <li><a href="service-loan.html">Loan
-                                        Scheme</a></li>
-                                <li><a href="service-pigmy.html">Pigmy
-                                        Scheme</a></li>
-                                <li><a href="service-sms.html">SMS
-                                        Banking</a></li>
-                                <li><a
-                                        href="service-neft.html">NEFT/RTGS</a></li>
-                                <li><a href="service-emi.html">EMI
-                                        Calculator</a></li>
+/* HERO */
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#1e293b,#2563eb);
+padding:20px;
+}
 
-                            </ul>
-                        </li>
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
 
-                        <li><a href="interest.html">Interest</a></li>
-                        <li><a href="about.html" class="active">About
-                                Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+.hero p{
+margin-bottom:30px;
+color:#cbd5e1;
+}
 
-                        <li class="dropdown"><a href="#"><span>Downloads</span>
-                                <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a
-                                        href="assets/forms/SHARE AC.pdf">Membership
-                                        Form</a></li>
-                                <li><a
-                                        href="assets/forms/fd new form.pdf">Account
-                                        Opening
-                                        Form</a></li>
-                                <li><a href="assets/forms/GOLD LOAN.pdf">Gold
-                                        Loan Form</a></li>
-                                <li><a href="assets/forms/EM LOAN.pdf">Emergency
-                                        Loan
-                                        Form</a></li>
-                                <li><a href="assets/forms/Loan Form.pdf">Loan
-                                        Form</a></li>
-                            </ul>
-                        </li>
+.btn{
+background:#38bdf8;
+padding:14px 35px;
+border-radius:30px;
+text-decoration:none;
+color:#000;
+font-weight:600;
+}
 
-                        <li><a style="padding: 5px 20px;" class="login_btn"
-                                href="https://banking.elioratechno.in/admin/index">LOGIN</a></li>
-                        <style>
-              .login_btn{
-                border: 2px solid #93296f;
-                border-radius: 7px;
-                background-color: #efecf1;
-              }
-            </style>
-                    </ul>
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                </nav>
+.btn:hover{
+background:#fff;
+}
 
-            </div>
-        </header>
+/* SECTIONS */
+section{
+padding:100px 60px;
+text-align:center;
+}
 
-        <main class="main">
+.section-title{
+font-size:34px;
+margin-bottom:40px;
+}
 
-            <div class="content-wrapper">
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
 
-                <div class="error-wrap ptb-100">
-                    <div class="container">
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+transition:0.3s;
+}
 
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="error-content">
-                                <img src="assets/img/404.jpg" alt="Iamge">
-                                <h2 class="oops">Oops! Page Not Found</h2>
-                                <p style="padding: 20px;">The page you are
-                                    looking for might
-                                    have
-                                    been removed had its name changed or is
-                                    temporarily unavailable.</p>
-                                <a href="https://unitedrural.in/index.html"
-                                    class="btnback">Back To Home <i
-                                        class="fa-solid fa-arrow-right"></i>
-                                </a>
+.card:hover{
+transform:translateY(-10px);
+background:#334155;
+}
 
-                            </div>
-                        </div>
+/* CONTACT */
+.contact form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
 
-                    </div>
-                </div>
+.contact input,
+.contact textarea{
+padding:12px;
+border:none;
+border-radius:8px;
+}
 
-            </div>
+.contact button{
+padding:12px;
+border:none;
+background:#38bdf8;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+}
 
-            <style>
-  .content-wrapper{
-    padding: 60px;
-  }
+/* FOOTER */
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+}
 
-  .error-content{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-  }
+.footer-logo{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+margin-bottom:10px;
+}
 
-  .oops{
-    font-size: 30px;
-    font-weight: 900;
-    text-align: center;
-  }
+.footer-logo img{
+height:35px;
+}
 
-  .btnback{
-    
-    padding: 10px 20px;
-    border: 2px solid #93296f;
-    border-radius: 5px;
-    background-color: #93296f;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:15px;
+border-radius:50%;
+font-size:20px;
+text-decoration:none;
+}
 
-  }
-  .btnback:hover{
-    background-color: #fff;
-    color: #000;
-  }
+/* RESPONSIVE */
+@media(max-width:768px){
+header{
+padding:15px 20px;
+flex-direction:column;
+}
+nav ul{
+margin-top:10px;
+}
+.hero h1{
+font-size:32px;
+}
+section{
+padding:80px 20px;
+}
+}
 </style>
+</head>
 
-            <div class="container">
-                <h2
-                    style="text-align: center; font-size: 30px; font-weight: 600;">We
-                    Are Working With</h2>
-                <div class="carousel">
+<body>
 
-                    <div class="group">
+<header>
+<div class="logo">
+<img src="logo.png" alt="United Technologies Logo">
+<span>United Technologies Pvt. Ltd.</span>
+</div>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
 
-                            <div class="partner-item">
-                                <img src="assets/img/sbi.jpg"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/mgb.png"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/buldana.png"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/icici.jpg"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/nagpur city.png"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/NDCC.jpg"
-                                    alt="Image">
-                            </div>
+<!-- HERO -->
+<section class="hero" id="home">
+<div>
+<h1>Your Website, Our Responsibility</h1>
+<p>Premium Website Design & Development Company</p>
+<a href="#contact" class="btn">Start Your Project</a>
+</div>
+</section>
 
-                    </div>
+<!-- ABOUT -->
+<section id="about">
+<h2 class="section-title">About Us</h2>
+<p>United Technologies Pvt. Ltd. builds powerful, responsive and SEO-friendly websites for startups, businesses and enterprises.</p>
+</section>
 
-                    <div aria-hidden class="group">
+<!-- SERVICES -->
+<section id="services">
+<h2 class="section-title">Our Services</h2>
+<div class="grid">
+<div class="card"><h3>Website Development</h3><p>Custom & responsive websites.</p></div>
+<div class="card"><h3>E-Commerce Website</h3><p>Complete online store solutions.</p></div>
+<div class="card"><h3>UI/UX Design</h3><p>Modern & creative design.</p></div>
+<div class="card"><h3>Website Maintenance</h3><p>Security & performance optimization.</p></div>
+</div>
+</section>
 
-                            <div class="partner-item">
-                                <img src="assets/img/sbi.jpg"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/mgb.png"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/buldana.png"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/icici.jpg"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/nagpur city.png"
-                                    alt="Image">
-                            </div>
-                            <div class="partner-item">
-                                <img src="assets/img/NDCC.jpg"
-                                    alt="Image">
-                            </div>
+<!-- CONTACT -->
+<section class="contact" id="contact">
+<h2 class="section-title">Contact Us</h2>
+<p>📞 +91 8446590779</p>
+<p>📧 info@unitedrural.in</p>
 
-                    </div>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
 
-                </div>
+<footer>
+<div class="footer-logo">
+<img src="logo.png" alt="United Technologies Logo">
+<span>United Technologies Pvt. Ltd.</span>
+</div>
+<p>© 2026 All Rights Reserved</p>
+</footer>
 
-            </div>
+<a href="https://wa.me/918446590779" class="whatsapp">💬</a>
 
-        </main>
-
-
-
-
-
-        
-
-
-        <footer id="footer" class="footer light-background">
-
-            <div class="container">
-                <div class="copyright text-center ">
-                    <p>© <span>Copyright</span><strong
-                            class="px-1 sitename-footer">United
-                            Rural</strong><span>All Rights
-                            Reserved</span>
-                    </p>
-                </div>
-                <div class="social-links d-flex justify-content-center">
-                    <a href><i class="bi bi-twitter-x"></i></a>
-                    <a href><i class="bi bi-facebook"></i></a>
-                    <a href><i class="bi bi-instagram"></i></a>
-                    <a href><i class="bi bi-linkedin"></i></a>
-                </div>
-                <div class="credits">Designed by <a
-                        href="https://rushijadhao1998.github.io/new_port/">Hrushikesh
-                        Jadhao</a>
-                </div>
-            </div>
-
-        </footer>
-
-
-
-
-
-
-
-
-        <!-- Scroll Top -->
-        <a href="#" id="scroll-top"
-            class="scroll-top d-flex align-items-center justify-content-center"><i
-                class="bi bi-arrow-up-short"></i></a>
-
-        <!-- Preloader -->
-        <div id="preloader"></div>
-
-        <!-- Vendor JS Files -->
-        <script
-            src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-        <!-- Main JS File -->
-        <script src="assets/js/main.js"></script>
-
-    </body>
-
+</body>
 </html>
